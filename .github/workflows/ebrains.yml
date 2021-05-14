@@ -2,7 +2,7 @@ name: Mirror to Ebrains
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
   to_ebrains:
@@ -12,7 +12,7 @@ jobs:
         uses: wei/git-sync@v3
         with:
           source_repo: "akarmas/sample-ebrains-component"
-          source_branch: "master"
+          source_branch: "maain"
           destination_repo: "https://ghpusher:${{ secrets.EBRAINS_GITLAB_ACCESS_TOKEN }}@gitlab.ebrains.eu/technical-coordination/members-testing/sample-mirror.git"
           destination_branch: "master"
       - name: synctags
