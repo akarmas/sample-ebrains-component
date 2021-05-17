@@ -17,8 +17,8 @@ At the EBRAINS Gitlab perform the following steps:
 
 1. Create an empty project at gitlab.ebrains.eu (destination_repo_name)
 2. Create a gitlab service account on the new project (detailed documentation [here](https://docs.gitlab.com/ee/user/project/settings/project_access_tokens.html))
- From the left-side menu navigate to:
- Settings > Access tokens and
+ From the left-side menu navigate to:  
+ Settings > Access tokens and  
  i) set the name variable of the service account (here, Name: ghpusher) 
  ii) set the expiration date of the project access token to be created (here, Expire Date: leave empty to never expire)
  iii) select all the scopes 
@@ -34,8 +34,8 @@ At the EBRAINS Gitlab perform the following steps:
 Then at Github perform the following steps:
 
 4. Navigate to the source_repo that you want to mirror to EBRAINS
-5. Navigate from the horizontal menu to: 
- Settings > Secrets > New repository secret
+5. Navigate from the horizontal menu to:  
+ Settings > Secrets > New repository secret  
   i) Set the name of the secret (here EBRAINS_GITLAB_ACCESS_TOKEN)
   ii) Set as the value of the secret the token that you created and saved at step 2.
   iii) Click the "Add secret" button
