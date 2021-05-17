@@ -14,6 +14,6 @@ branches you want to sync
 6. Create the .github/workflows directories in your repository 
 https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions
 7. In the .github/workflows directory create a yml file e.g. ebrains.yml
-  and define the rules for synching the mirror with Github Actions
+  and define the rules for synching the mirror with Github Actions.
 
 Credits to Arbor team for setting up the flow.
