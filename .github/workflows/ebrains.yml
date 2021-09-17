@@ -8,7 +8,7 @@ jobs:
   to_ebrains:
     runs-on: ubuntu-latest
     steps:
-      - name: sycnmaster
+      - name: syncmaster
         uses: wei/git-sync@v3
         with:
           source_repo: "akarmas/sample-ebrains-component"
