@@ -13,7 +13,7 @@ jobs:
     steps:
       # this task will push the master branch of the source_repo (github) to the
       # destination_repo (ebrains gitlab)
-      - name: sycnmaster
+      - name: syncmaster
         uses: wei/git-sync@v3
         # component owners need to set their own variables
         # the destination_repo format is
